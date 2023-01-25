@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    background-color:#FFF0F5;
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+    color:grey;
+}
+.card{
+    background-color:white;
+    float: left;
+    width: 300px;
+    height: 500px;
+    margin: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+.card1{
+    background-color: white;
+    float: left;
+    width: 300px;
+    height: 500px;
+    margin: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+.card2{
+    background-color:white;
+    float: left;
+    width: 300px;
+    height: 500px;
+    margin: 50px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.card h3{
+    color:purple;
+    margin: 10px;
+}
+.card p{
+    padding:10px;
+}
+.card1 h3{
+    color:blue;
+    margin: 10px;
+}
+.card1 p{
+    padding: 10px;
+}
+.card2 h3{
+    color:green;
+    margin: 10px;
+}
+.card2 p{
+    padding: 10px;
+}
+.card input{
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    color: red;
+}
+.card input:hover{
+    background-color:purple;
+}
+.card1 input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: red;
+}
+.card1 input:hover{
+    background-color:blue;
+}
+.card2 input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: red;
+}
+.card2 input:hover{
+    background-color: green;
+}
+h4{
+    display: flex;
+    justify-content:flex start;
+    margin: 5px;
+    padding-left: 50px;
+    
+}
+#r1{
+    font-size: 1.2em;
+    font-weight: 100;
+    
+}
+#r1 span{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+#r2{
+    font-size: 1.2em;
+    font-weight: 100;
+}
+#r2 span{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+#r3{
+    font-size: 1.2em;
+    font-weight: 100;
+}
+#r3 span{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+@media(max-width:748px) {
+    #container{
+        width: auto;
+        height: 2000px;
+    }
+    .card,.card1,.card2{
+        width: auto;
+    }
+}
+
+
+
