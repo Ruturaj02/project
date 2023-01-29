@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    background-color:white;
+    width: 1600px;
+    height:1200px;
+    margin: auto;
+    padding: 15px;
+}
+.header{
+    background-color: antiquewhite;
+    width: 1600px;
+    height: 100px;
+    margin: auto;
+}
+h2{
+    text-align: center;
+    font-family: Franklin Gothic Medium;
+    font-size: 35px;
+}
+h1{
+    text-align: center;
+    font-family: Franklin Gothic Medium;
+    font-size: 55px;
+}
+.cards{
+    width: 1450px;
+    background-color: white;
+    height: 1000px;
+    margin: auto;
+}
+.card1{
+    float: left;
+    width: 300px;
+    margin: 25px;
+}
+.card2{
+    float: left;
+    width: 300px;
+    margin: 25px;
+}
+.card3{
+    float: left;
+    width: 300px;
+    margin: 25px;
+}
+.card4{
+    float: left;
+    width: 300px;
+    margin: 25px;
+}
+button{
+    background-color: red;
+    width: 100px;
+    height: 40px;
+    margin-left: 100px;
+    padding: 10px;
+    color: white;
+}
+h3{
+    margin: 20px;
+    font-size: small;
+}
+h4{
+    text-align: center;
+    margin: 30px;
+    font-size:larger;
+}
+@media(max-width:748px) {
+    #container{
+        width: auto;
+        height: 2000px;
+    }
+    .header{
+        width: auto;
+        height: 100px;
+    }
+    .cards{
+        width: auto;
+        height: 1000px;
+    }
+    .card1,.card2,.card3,.card4{
+        width: auto;
+    }
+}
