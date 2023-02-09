@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#container{
+    width: 1500px;
+    height: 350px;
+    margin: auto;
+    background-color:white;
+    margin: auto;
+}
+/* cards  */
+/* card 1  */
+.card1{
+    color: black;
+    float: left;
+    width: 300px;
+    height: 350px;
+}
+.card1 h3{
+    margin: 10px;
+}
+/* card 2  */
+.card2{
+    float: left;
+    color:black;
+    width: 300px;
+    height: 350px;
+}
+.card2 h2{
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+.card2 h3{
+    margin: 20px;
+}
+/* card 3  */
+.card3{
+    float: left;
+    color:black;
+    width: 300px;
+    height: 350px;
+}
+.card3 h2{
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+.card3 h3{
+    margin: 20px;
+}
+/* card 4  */
+.card4{
+    float: left;
+    color:black;
+    width: 300px;
+    height: 350px;
+}
+.card4 h2{
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+.card4 h3{
+    margin: 20px;
+}
+/* card 5  */
+.card5{
+    float: left;
+    color: black;
+    width: 300px;
+    height: 350px;
+}
+.card5 h2{
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+.card5 h3{
+    margin: 20px;
+}
+/* hr*/
+hr{
+    width: 100%;
+}
+.container2 h3{
+    text-align: center;
+}
+/*  image navi logo  */
+#co{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+#co1{
+    margin: 20px;
+}
+/* Responsive */
+
+@media(max-width:999px){
+    #container{
+        width: 100%;
+    }
+    .container1,.container2{
+        margin-left: 100px;
+        
+    }
+}
