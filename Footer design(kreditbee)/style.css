@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#container{
+    width: 1500px;
+    height: 350px;
+    margin: auto;
+    background-color: black;
+}
+/* card1 */
+.card1{
+    color: aliceblue;
+    float: left;
+    width: 300px;
+    height: 350px;
+
+}
+.card1 h1{
+    text-align: center;
+    margin-top: 20px;   
+}
+.card1 h3{
+    margin: 40px;
+}
+/* card2 */
+.card2{
+    float: left;
+    color: aliceblue;
+    width: 300px;
+    height: 350px;
+}
+.card2 h1{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.card2 h3{
+    margin: 40px;
+}
+.card2 hr{
+    width: 90px;
+    height: 5px;
+    background-color: yellow;
+    margin-left: 40px;
+}
+/* card3 */
+.card3{
+    float: left;
+    color: aliceblue;
+    width: 300px;
+    height: 350px;
+}
+.card3 h1{
+    margin-top: 20px;
+    margin-left: 40px;
+
+}
+.card3 h3{
+    margin: 40px;
+}
+.card3 hr{
+    width: 100px;
+    height: 5px;
+    background-color: yellow;
+    margin-left: 40px;
+}
+/* card4 */
+.card4{
+    float: left;
+    color: aliceblue;
+    width: 300px;
+    height: 350px;
+}
+.card4 h1{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.card4 h3{
+    margin: 40px;
+}
+ .card4 hr{
+    width: 70px;
+    height: 5px;
+    background-color: yellow;
+    margin-left: 40px;
+}
+/* 5th card */
+.card5{
+    float: left;
+    width: 300px;
+    height: 350px;
+}
+.card5 h3{
+    color: aliceblue;
+}
+.card5 h3{
+    margin: 20px;
+}
+.card5 img{
+    margin-top: 60px;
+}
+.card5 i{
+    padding: 7px;
+}
+@media(max-width:1300px) {
+    #container{
+        width: 100%;
+        height: 1700px;
+        background-color: black;
+    }
+    .card1,.card2,.card3,.card4,.card5{
+        width: 100%;
+        margin-left: 80px;
+
+    }
+    
+}
