@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Kanit", sans-serif;
+    /*logo */
+  }
+  #logo-color i img {
+    width: 50px;
+  }
+  
+  /* navbar  */
+  
+  
+  .navbar-brand {
+    margin-left: 50px;
+    color: rgba(255, 166, 0);
+    font-weight: bold;
+  }
+  #menu-color {
+    background-color: rgba(255, 166, 0);
+  }
+  .navbar-brand:hover {
+    color: rgba(255, 166, 0);
+  }
+  #navbar-color {
+    background-color: black;
+  }
+  .navbar-nav {
+    margin-left: 50px;
+  }
+  .nav-item {
+    margin-left: 10px;
+  }
+  #four{
+    border-bottom: 2px solid rgba(196, 22, 144);
+  }
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s ease;
+  }
+  .nav-link:hover {
+    background-color: rgb(196, 22, 144);
+    box-shadow: 0 0 5px rgba(255, 166, 0), 0 0 20px rgba(255, 166, 0),
+      0 0 60px rgba(255, 166, 0), 0 0 150px rgba(255, 166, 0);
+    color: black;
+  }
+
+
+  /* Body part */
+
+  html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.pimg2 {
+  background-image: url(menu_img/background2.jpg);
+  min-height: 400px;
+}
+.pimg3 {
+  background-image: url(menu_img/background3.jpg);
+  min-height: 400px;
+}
+
+.pimg2,
+.pimg3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.textBg {
+  background: #313534;
+  color: #fff;
+  padding: 20px;
+}
+
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-light {
+  background-color: #282e34;
+  color: #666;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+/* Footer  */
+#footer {
+  background-color: black;
+  padding: 30px 0;
+  font-size: 14px;
+  margin-top: 50px;
+  height: 100px;
+}
+#footer .footer-links a {
+  color: white;
+  font-weight: bold;
+  padding-left: 15px;
+}
+#footer .footer-links a:first-child {
+  padding-left: 0;
+}
+#footer .footer-links a:hover {
+  color: rgba(255, 166, 0);
+}
+.copyright {
+  color: white;
+}
